@@ -1,0 +1,101 @@
+.back
+{
+    position: absolute;
+    top: 67px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    animation: focus 2s infinite;
+    
+}
+@keyframes focus
+{
+    100%
+    {
+        opacity: 0;
+    }
+}
+.back > a 
+{
+    color: black;
+}
+.back > a > i
+{
+    font-size: 60px;
+}
+.back:hover
+{
+    animation: show 1s infinite;
+}
+@keyframes show
+{
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.container > .information-to-user
+{
+    width: 100%;
+    height: 60px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container > .information-to-user > p
+{
+    background-color: #ffff;
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #000;
+}
+.error
+{
+    color: rgb(182, 67, 67);
+    text-align: center;
+    font-weight: 700;
+}
+.container > .form-register 
+{
+    width: 94%;
+    background-color: rgb(160, 160, 160);
+    margin: auto;
+    height: 81%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container > .form-register  > div
+{
+    display: flex;
+    flex-direction: column;
+}
+.container > .form-register  > div > label
+{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container > .form-register  > div > input
+{
+    font-size: 20px;
+    padding: 4px;
+    outline: none;
+    border: none;
+}
+.container > .form-register  > .save
+{
+    margin-top: 10px;
+    width: 80%;
+}
+.container > .form-register  > .save > input
+{
+    background-color: rgb(54, 173, 54);
+    border-radius: 10px;
+    cursor: pointer;
+}
