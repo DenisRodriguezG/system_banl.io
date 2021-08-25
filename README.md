@@ -21,3 +21,7 @@ Well, this is the part of transferring money to another account. For that, you o
 
 <h4>In this part we will see all the movements you have made, whether it is withdrawing money and receiving money.</h4>
 <img src="capture/movement.png"/>
+
+
+<h4>Finally, the footer is shown where you will see the information or contact of the bank, and on one side a form for customers to give their suggestion.</h4>
+<img src="capture/footer.png"/>
