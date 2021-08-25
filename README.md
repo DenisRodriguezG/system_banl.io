@@ -14,3 +14,7 @@ System bank with php, js, css and mysql.
 
 <h4>This part is where the user will choose the amount they want to withdraw, it must be taken into account that if the client does not have a sufficient balance, the withdrawal will not be made.</h4>
 <img src="capture/withdraw.png"/>
+
+<h4>
+Well, this is the part of transferring money to another account. For that, you only ask for two things, the card number and the desired amount. If the card number does not exist in the database, the process will not be possible, and the desired amount should not exceed what you currently have.</h4>
+<img src="transfer.png"/>
