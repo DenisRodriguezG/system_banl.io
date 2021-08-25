@@ -9,3 +9,5 @@ System bank with php, js, css and mysql.
 3. You have to fill in all the spaces if you want to save.
 </h4>
 <img src="capture/registration_area.png"/>
+<h4>Well, in this part we see that it shows the menu on one side, and it shows the user's information that information is: 1. Full name. 2. When you register a card number is created. 3. you see the balance.</h4>
+<img src="capture/main-user-info.png"/>
