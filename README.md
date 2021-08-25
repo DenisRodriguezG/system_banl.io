@@ -11,3 +11,6 @@ System bank with php, js, css and mysql.
 <img src="capture/registration_area.png"/>
 <h4>Well, in this part we see that it shows the menu on one side, and it shows the user's information that information is: 1. Full name. 2. When you register a card number is created. 3. you see the balance.</h4>
 <img src="capture/main_info_user.png"/>
+
+<h4>This part is where the user will choose the amount they want to withdraw, it must be taken into account that if the client does not have a sufficient balance, the withdrawal will not be made.</h4>
+<img src="capture/withdraw.png"/>
